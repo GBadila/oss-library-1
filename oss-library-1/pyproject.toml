@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_dante_HxH"
+version = "0.0.1"
+authors = [
+  { name="Gabriel Badila", email="gabriel.badila@holisticai.com" },
+]
+description = "Test OSS Library 1"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GBadila/oss-library-1"
+"Bug Tracker" = "https://github.com/GBadila/oss-library-1/issues"
